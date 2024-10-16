@@ -1,0 +1,81 @@
+.event-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .event-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  .event-category {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .event-description {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  .event-date,
+  .event-price,
+  .event-seats {
+    font-size: 0.9rem;
+    margin: 4px 0;
+    color: #666;
+  }
+  
+  .event-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+  
+  .view-details-btn,
+  .book-ticket-btn {
+    padding: 8px 16px;
+    margin-left: 8px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-details-btn {
+    background-color: #f0f0f0;
+  }
+  
+  .book-ticket-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .book-ticket-btn:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .book-ticket-btn:not(:disabled):hover {
+    background-color: #45a049;
+  }
+  

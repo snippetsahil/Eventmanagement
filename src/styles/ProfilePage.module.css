@@ -1,0 +1,28 @@
+.profile-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .booked-events-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .event-item {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .event-item h4 {
+    margin: 0;
+    color: #4caf50;
+  }
+  
+  .event-item p {
+    margin: 5px 0;
+  }
+  
